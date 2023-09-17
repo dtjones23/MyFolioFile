@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+}
+/* added universal element for entire page */
+
+body {
+    background-color: white;
+}
+/* added white background */
+
+h1 {
+    font-size: 55px;
+}
+/* increased size of h1 */
+
+.header {
+    padding: 15px;
+    background-color: #015b6b;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+/* added padding and background */
+
+.header img {
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* added dimensions to photo for fitting */
+
+.header a {
+    font-size: 30px;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+}
+/* adjusted font for header for appeal */
+
+.header nav li {
+    display: flex;
+    justify-content: space-between;
+}
