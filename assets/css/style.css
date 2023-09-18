@@ -6,8 +6,10 @@
 
 body {
     background-color: white;
+    width: 100%;
 }
 /* added white background */
+/* added width */
 
 h1 {
     font-size: 55px;
@@ -32,7 +34,7 @@ h1 {
 /* added dimensions to photo to fit the header */
 
 .header a {
-    font-size: 30px;
+    font-size: 50px;
     list-style-type: none;
     text-decoration: none;
     color: white;
@@ -69,3 +71,43 @@ h2 {
     font-size: 40px;
 }
 /* increased font of h2 header to compliment design */
+
+.project h2 {
+    text-align: center;
+}
+
+.project ul {
+    box-sizing: border-box;
+    background-color: #015b6b;
+    margin: 10px;
+    border-top: 6px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.image-1 {
+    height: 350px;
+    width: 350px;
+}
+
+.image-2 {
+    height: 300px;
+    width: 300px;
+}
+
+.contact ul {
+    background-color: #015b6b;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: none;
+    margin: 10px;
+}    
+/* centered content and added background color */
+
+a {
+    font-size: 25px;
+    color: white;
+}
