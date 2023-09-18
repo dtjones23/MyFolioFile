@@ -29,7 +29,7 @@ h1 {
     margin-right: auto;
     margin-top: 20px;
 }
-/* added dimensions to photo for fitting */
+/* added dimensions to photo to fit the header */
 
 .header a {
     font-size: 30px;
@@ -38,9 +38,34 @@ h1 {
     color: white;
     text-decoration: none;
 }
-/* adjusted font for header for appeal */
+/* adjusted font of a for appeal in header */
 
 .header nav li {
     display: flex;
     justify-content: space-between;
 }
+/* aligned the lists horizontally above the image */
+
+.about {
+    box-sizing: border-box;
+    border-right: 6px solid black;
+    background: #015b6b;
+    margin-right: 300px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 20px;
+    color: white;
+}
+/* added the border box and adjusted the values for the box to fit */
+
+.about-container {
+    position: absolute;
+    left: 82%;
+    color: black;
+}
+/* added this selector to adjust the position of the h2 header  */
+
+h2 {
+    font-size: 40px;
+}
+/* increased font of h2 header to compliment design */
